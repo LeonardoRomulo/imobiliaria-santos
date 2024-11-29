@@ -23,7 +23,7 @@ body{
 }
 
 /*=== 1ª seção===*/
-.cabecalho {
+.topo {
     background-color: #afddfb;
 }
 
@@ -71,6 +71,10 @@ h2{
     width: 450px;
 }
 
+.texto-azul {
+    color: #1d80c1;
+}
+
 .destaque-azul {
     color: #1d80c1;
     font-weight: normal;
@@ -78,7 +82,7 @@ h2{
 
 /* === 4ª seção === */
 
-.secao-servicos, .contatos{
+.servicos, .contatos{
     background-color: #1c81c0;
 }
 
