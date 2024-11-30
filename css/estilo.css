@@ -95,7 +95,7 @@ h3 {
 
 
 
-.paragrago-servicos {
+.paragrafo-servicos {
     color: #ffffff;
     line-height: 42px;
     font-size: 22px;
@@ -103,10 +103,7 @@ h3 {
     width: 700px;
 }
 
-.destaque-amarelo, .destaque-azul, span{
-    font-weight: bold;
-}
-.destaque-amarelo {
+.texto-amarelo {
     color: #fff81b;
 }
 
@@ -115,8 +112,7 @@ h3 {
     width: 135px;
 
 }
-
-.item-lista-servicos {
+.intem-lista-servicos {
     color: #ffffff;
     line-height: 42px;
     text-align: left;
