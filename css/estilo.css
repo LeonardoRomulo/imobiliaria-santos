@@ -25,6 +25,10 @@ body{
 /*=== 1ª seção===*/
 .topo {
     background-color: #afddfb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .topo img {
@@ -35,6 +39,7 @@ body{
     margin-top: 15px;
     margin-bottom: 25px;
     text-align: center;
+
 }
 
 .link-topo {
@@ -45,10 +50,22 @@ body{
     margin: 0 10px;
 }
 
+.link-topo:hover {
+    font-size: 22px;
+    padding: 5px;
+    color: #1c81c0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* .link-topo:visited {
+    color: aqua;
+} */
+
 /* === 2ª seção ===*/
 .banner {
     padding-top: 0;
-    margin-top: 50px;
+    margin-top: 350px;
 }
 /* === Estilo para destaques === */
 
@@ -112,7 +129,7 @@ h3 {
     width: 135px;
 
 }
-.intem-lista-servicos {
+.item-lista-servicos {
     color: #ffffff;
     line-height: 42px;
     text-align: left;
